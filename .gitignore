@@ -1,0 +1,25 @@
+# Virtual Environment
+/venv/
+
+# PyCharm IDE files
+/.idea/
+
+# Data folder
+/data/
+
+# KM results plots
+/results/km/plots
+
+# ML explainers and plots
+/results/ml_v1/explainers
+/results/ml_v1/plots
+
+/results/ml_v2/explainers
+/results/ml_v2/plots
+
+# ML models with modifications to features
+/results/ml_v2_random_noise
+/results/ml_v2_knockout
+
+# Plots of utils
+/results/utils

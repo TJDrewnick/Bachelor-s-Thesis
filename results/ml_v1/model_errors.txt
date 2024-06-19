@@ -1,0 +1,96 @@
+
+AUS: Detrended Drift (LightGMB)
+Mean Squared Error: 0.00031517888179721825
+Mean Absolute Error: 0.014386906349511728
+Mean Absolute Percentage Error: 0.15613104061221822
+r2-Score: 0.07290576673889893
+
+AUS: Detrended Drift (XGBoost)
+Mean Squared Error: 0.00031354437542491123
+Mean Absolute Error: 0.014319998202488892
+Mean Absolute Percentage Error: 0.1553762123549326
+r2-Score: 0.07771364416822901
+
+AUS: Detrended Diffusion (LightGMB)
+Mean Squared Error: 9.045163896118015e-09
+Mean Absolute Error: 7.464413619358298e-05
+Mean Absolute Percentage Error: 0.1345719857772109
+r2-Score: 0.4087083979201135
+
+AUS: Detrended Diffusion (XGBoost)
+Mean Squared Error: 1.1284750625739165e-08
+Mean Absolute Error: 8.411516320194263e-05
+Mean Absolute Percentage Error: 0.15359995653556527
+r2-Score: 0.2623043260245361
+
+AUS: Original Drift (LightGMB)
+Mean Squared Error: 0.0007619407379783155
+Mean Absolute Error: 0.02237947042676177
+Mean Absolute Percentage Error: 2.555326734251019
+r2-Score: 0.10981204106943332
+
+AUS: Original Drift (XGBoost)
+Mean Squared Error: 0.0007616317888101617
+Mean Absolute Error: 0.022351083802288126
+Mean Absolute Percentage Error: 2.4817631363585417
+r2-Score: 0.11017299148946436
+
+AUS: Original Diffusion (LightGMB)
+Mean Squared Error: 2.6827211894978976e-08
+Mean Absolute Error: 0.00013048438239490507
+Mean Absolute Percentage Error: 0.12561336104828236
+r2-Score: 0.31877055895382156
+
+AUS: Original Diffusion (XGBoost)
+Mean Squared Error: 3.211401668051934e-08
+Mean Absolute Error: 0.00014431015079891126
+Mean Absolute Percentage Error: 0.1402383554441494
+r2-Score: 0.18452153288756856
+
+CE: Detrended Drift (LightGMB)
+Mean Squared Error: 2.4793268561369556e-06
+Mean Absolute Error: 0.0012611273659516946
+Mean Absolute Percentage Error: 0.12412987712100883
+r2-Score: 0.434143134579163
+
+CE: Detrended Drift (XGBoost)
+Mean Squared Error: 2.4582966541865007e-06
+Mean Absolute Error: 0.001251487116396152
+Mean Absolute Percentage Error: 0.12308187251158655
+r2-Score: 0.43894285839347
+
+CE: Detrended Diffusion (LightGMB)
+Mean Squared Error: 5.637998839128754e-12
+Mean Absolute Error: 1.77924396397492e-06
+Mean Absolute Percentage Error: 0.059839431006112616
+r2-Score: 0.8266999747097988
+
+CE: Detrended Diffusion (XGBoost)
+Mean Squared Error: 3.2535960663215636e-11
+Mean Absolute Error: 4.65961783339142e-06
+Mean Absolute Percentage Error: 0.16214820860582402
+r2-Score: -8.58401467105363e-05
+
+CE: Original Drift (LightGMB)
+Mean Squared Error: 5.692520138351095e-06
+Mean Absolute Error: 0.0019064158291350135
+Mean Absolute Percentage Error: 5.866232648515123
+r2-Score: 0.0947071388617654
+
+CE: Original Drift (XGBoost)
+Mean Squared Error: 5.691467276720479e-06
+Mean Absolute Error: 0.001906836213440949
+Mean Absolute Percentage Error: 5.817353518898978
+r2-Score: 0.09487457755232731
+
+CE: Original Diffusion (LightGMB)
+Mean Squared Error: 1.0487003247630314e-11
+Mean Absolute Error: 2.4928253916625737e-06
+Mean Absolute Percentage Error: 0.0781782273171849
+r2-Score: 0.7332767765188384
+
+CE: Original Diffusion (XGBoost)
+Mean Squared Error: 3.931846435682925e-11
+Mean Absolute Error: 5.111262695093935e-06
+Mean Absolute Percentage Error: 0.16557876003871602
+r2-Score: -1.3760647244343005e-05

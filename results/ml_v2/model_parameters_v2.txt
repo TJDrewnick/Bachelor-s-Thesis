@@ -1,0 +1,348 @@
+
+AUS: Detrended Drift (Gradient Boosted Tree, Mean Squared Error, LightGMB)
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.01
+max_depth: 10
+min_child_samples: 39
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 610
+num_leaves: 25
+random_state: 42
+reg_alpha: 0.4
+reg_lambda: 0.1
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+AUS: Detrended Drift (Gradient Boosted Tree, Squared Error, XGBoost)
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 6
+min_child_weight: 11
+missing: nan
+n_estimators: 950
+random_state: 42
+reg_alpha: 0.5
+reg_lambda: 0.6
+eta: 0.09
+
+AUS: Detrended Drift (Gradient Boosted Tree, Absolute Error, XGBoost)
+objective: reg:absoluteerror
+enable_categorical: False
+max_depth: 9
+min_child_weight: 13
+missing: nan
+n_estimators: 530
+random_state: 42
+reg_alpha: 0.06
+reg_lambda: 0.6
+eta: 0.01
+
+AUS: Detrended Drift (Random Forest, LightGBM)
+boosting_type: rf
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.1
+max_depth: 8
+min_child_samples: 31
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 918
+num_leaves: 51
+random_state: 42
+reg_alpha: 0.015
+reg_lambda: 0.3
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+bagging_freq: 3
+bagging_fraction: 0.5
+
+AUS: Detrended Drift (Multi Layer Perceptron)
+activation: relu
+alpha: 0.01
+batch_size: auto
+beta_1: 0.9
+beta_2: 0.999
+early_stopping: False
+epsilon: 1e-08
+hidden_layer_sizes: (50, 50, 50, 50)
+learning_rate: constant
+learning_rate_init: 0.001
+max_fun: 15000
+max_iter: 100
+momentum: 0.9
+n_iter_no_change: 10
+nesterovs_momentum: True
+power_t: 0.5
+random_state: 42
+shuffle: True
+solver: adam
+tol: 0.0001
+validation_fraction: 0.1
+verbose: False
+warm_start: False
+
+AUS: Detrended Diffusion (Gradient Boosted Tree, Mean Squared Error, LightGMB)
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.14
+max_depth: 11
+min_child_samples: 48
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 550
+num_leaves: 22
+random_state: 42
+reg_alpha: 0.0004
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+AUS: Detrended Diffusion (Gradient Boosted Tree, Squared Error, XGBoost)
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 6
+min_child_weight: 24
+missing: nan
+n_estimators: 510
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.3
+eta: 0.42
+
+AUS: Detrended Diffusion (Gradient Boosted Tree, Absolute Error, XGBoost)
+objective: reg:absoluteerror
+enable_categorical: False
+max_depth: 11
+min_child_weight: 17
+missing: nan
+n_estimators: 624
+random_state: 42
+reg_alpha: 0.6
+reg_lambda: 0.7
+eta: 0.05
+
+AUS: Detrended Diffusion (Random Forest, LightGBM)
+boosting_type: rf
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.1
+max_depth: 6
+min_child_samples: 76
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 737
+num_leaves: 21
+random_state: 42
+reg_alpha: 0.001
+reg_lambda: 0.3
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+bagging_freq: 6
+bagging_fraction: 0.3
+
+AUS: Detrended Diffusion (Multi Layer Perceptron)
+activation: identity
+alpha: 0.0001
+batch_size: auto
+beta_1: 0.9
+beta_2: 0.999
+early_stopping: False
+epsilon: 1e-08
+hidden_layer_sizes: (10, 50, 50, 10)
+learning_rate: constant
+learning_rate_init: 0.01
+max_fun: 15000
+max_iter: 100
+momentum: 0.9
+n_iter_no_change: 10
+nesterovs_momentum: True
+power_t: 0.5
+random_state: 42
+shuffle: True
+solver: adam
+tol: 0.0001
+validation_fraction: 0.1
+verbose: False
+warm_start: False
+
+CE: Detrended Drift (Gradient Boosted Tree, Mean Squared Error, LightGMB)
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.03
+max_depth: 5
+min_child_samples: 75
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 873
+num_leaves: 14
+random_state: 42
+reg_alpha: 0.1
+reg_lambda: 1.0
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+CE: Detrended Drift (Gradient Boosted Tree, Squared Error, XGBoost)
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 7
+min_child_weight: 20
+missing: nan
+n_estimators: 381
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.1
+eta: 0.04
+
+CE: Detrended Drift (Gradient Boosted Tree, Absolute Error, XGBoost)
+objective: reg:absoluteerror
+enable_categorical: False
+max_depth: 10
+min_child_weight: 16
+missing: nan
+n_estimators: 988
+random_state: 42
+reg_alpha: 1.0
+reg_lambda: 0.8
+eta: 0.02
+
+CE: Detrended Drift (Random Forest, LightGBM)
+boosting_type: rf
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.1
+max_depth: 10
+min_child_samples: 52
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 669
+num_leaves: 73
+random_state: 42
+reg_alpha: 0.007
+reg_lambda: 0.5
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+bagging_freq: 6
+bagging_fraction: 0.4
+
+CE: Detrended Drift (Multi Layer Perceptron)
+activation: relu
+alpha: 0.0005
+batch_size: auto
+beta_1: 0.9
+beta_2: 0.999
+early_stopping: False
+epsilon: 1e-08
+hidden_layer_sizes: (20, 100, 100, 20)
+learning_rate: constant
+learning_rate_init: 0.005
+max_fun: 15000
+max_iter: 100
+momentum: 0.9
+n_iter_no_change: 10
+nesterovs_momentum: True
+power_t: 0.5
+random_state: 42
+shuffle: True
+solver: adam
+tol: 0.0001
+validation_fraction: 0.1
+verbose: False
+warm_start: False
+
+CE: Detrended Diffusion (Gradient Boosted Tree, Mean Squared Error, LightGMB)
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.14
+max_depth: 11
+min_child_samples: 48
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 550
+num_leaves: 22
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+CE: Detrended Diffusion (Gradient Boosted Tree, Squared Error, XGBoost)
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 10
+min_child_weight: 29
+missing: nan
+n_estimators: 120
+random_state: 42
+reg_alpha: 0.2
+reg_lambda: 0.2
+eta: 0.2
+
+CE: Detrended Diffusion (Gradient Boosted Tree, Absolute Error, XGBoost)
+objective: reg:absoluteerror
+enable_categorical: False
+max_depth: 11
+min_child_weight: 14
+missing: nan
+n_estimators: 900
+random_state: 42
+reg_alpha: 0.6
+reg_lambda: 0.9
+eta: 0.07
+
+CE: Detrended Diffusion (Random Forest, LightGBM)
+boosting_type: rf
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.1
+max_depth: 6
+min_child_samples: 76
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 737
+num_leaves: 21
+random_state: 42
+reg_alpha: 0.001
+reg_lambda: 0.3
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+bagging_freq: 6
+bagging_fraction: 0.3
+
+CE: Detrended Diffusion (Multi Layer Perceptron)
+activation: identity
+alpha: 0.0001
+batch_size: auto
+beta_1: 0.9
+beta_2: 0.999
+early_stopping: False
+epsilon: 1e-08
+hidden_layer_sizes: (10, 100, 10)
+learning_rate: constant
+learning_rate_init: 0.005
+max_fun: 15000
+max_iter: 100
+momentum: 0.9
+n_iter_no_change: 10
+nesterovs_momentum: True
+power_t: 0.5
+random_state: 42
+shuffle: True
+solver: adam
+tol: 0.0001
+validation_fraction: 0.1
+verbose: False
+warm_start: False

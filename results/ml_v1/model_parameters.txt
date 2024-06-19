@@ -1,0 +1,240 @@
+
+LightGMB: AUS: Detrended Drift
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.01
+max_depth: 10
+min_child_samples: 39
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 610
+num_leaves: 25
+random_state: 42
+reg_alpha: 0.4
+reg_lambda: 0.1
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: AUS: Detrended Drift
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 6
+min_child_weight: 11
+missing: nan
+n_estimators: 950
+random_state: 42
+reg_alpha: 0.5
+reg_lambda: 0.6
+eta: 0.09
+
+LightGMB: AUS: Detrended Diffusion
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.14
+max_depth: 11
+min_child_samples: 48
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 550
+num_leaves: 22
+random_state: 42
+reg_alpha: 0.0004
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: AUS: Detrended Diffusion
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 6
+min_child_weight: 24
+missing: nan
+n_estimators: 510
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.3
+eta: 0.42
+
+LightGMB: AUS: Original Drift
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.012
+max_depth: 4
+min_child_samples: 44
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 405
+num_leaves: 38
+random_state: 42
+reg_alpha: 0.9
+reg_lambda: 0.5
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: AUS: Original Drift
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 3
+min_child_weight: 2
+missing: nan
+n_estimators: 324
+random_state: 42
+reg_alpha: 0.1
+reg_lambda: 0.4
+eta: 0.01
+
+LightGMB: AUS: Original Diffusion
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.17
+max_depth: 11
+min_child_samples: 24
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 168
+num_leaves: 29
+random_state: 42
+reg_alpha: 0.001
+reg_lambda: 0.4
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: AUS: Original Diffusion
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 6
+min_child_weight: 24
+missing: nan
+n_estimators: 510
+random_state: 42
+reg_alpha: 0.0005
+reg_lambda: 0.3
+eta: 0.42
+
+LightGMB: CE: Detrended Drift
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.03
+max_depth: 5
+min_child_samples: 75
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 873
+num_leaves: 14
+random_state: 42
+reg_alpha: 0.1
+reg_lambda: 1.0
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: CE: Detrended Drift
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 7
+min_child_weight: 20
+missing: nan
+n_estimators: 381
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.1
+eta: 0.04
+
+LightGMB: CE: Detrended Diffusion
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.14
+max_depth: 11
+min_child_samples: 48
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 550
+num_leaves: 22
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: CE: Detrended Diffusion
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 10
+min_child_weight: 29
+missing: nan
+n_estimators: 120
+random_state: 42
+reg_alpha: 0.2
+reg_lambda: 0.2
+eta: 0.2
+
+LightGMB: CE: Original Drift
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.02
+max_depth: 3
+min_child_samples: 76
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 465
+num_leaves: 78
+random_state: 42
+reg_alpha: 0.1
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: CE: Original Drift
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 4
+min_child_weight: 28
+missing: nan
+n_estimators: 762
+random_state: 42
+reg_alpha: 0.2
+reg_lambda: 0.1
+eta: 0.02
+
+LightGMB: CE: Original Diffusion
+boosting_type: gbdt
+colsample_bytree: 1.0
+importance_type: split
+learning_rate: 0.13
+max_depth: 11
+min_child_samples: 48
+min_child_weight: 0.001
+min_split_gain: 0.0
+n_estimators: 550
+num_leaves: 22
+random_state: 42
+reg_alpha: 0.0
+reg_lambda: 0.9
+subsample: 1.0
+subsample_for_bin: 200000
+subsample_freq: 0
+
+XGBoost: CE: Original Diffusion
+objective: reg:squarederror
+enable_categorical: False
+max_depth: 10
+min_child_weight: 29
+missing: nan
+n_estimators: 120
+random_state: 42
+reg_alpha: 0.2
+reg_lambda: 0.2
+eta: 0.2
